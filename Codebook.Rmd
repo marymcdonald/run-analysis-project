@@ -1,0 +1,134 @@
+---
+title: "Codebook"
+author: "Mary McDonald"
+date: "April 26, 2015"
+output: html_document
+---
+Subject  		
+	Subjects in trial, ranging from 1:30
+Activity		
+	Activities in trial, ranging from 1:6
+	1 WALKING
+	2 WALKING_UPSTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
+tBodyAccMeanAverage
+	Average mean of body acceleration in the time domain
+	tBodyAccMeanXPos: in the X position (direction)
+	tBodyAccMeanYPos: in the Y position (direction)
+	tBodyAccMeanZPos: in the Y position (direction)
+tGravityAccMeanAverage
+	Average mean of gravity acceleration in the time domain
+	tGravityAccMeanXPos: in the X position (direction)
+	tGravityAccMeanYPos: in the Y position (direction)
+	tGravityAccMeanZPos: in the Z position (direction)
+tBodyAccJerkMeanAverage
+	Average mean of the jerk of body acceleration in the time domain
+	tBodyAccJerkMeanXPos: in the X position (direction)
+	tBodyAccJerkMeanYPos: in the Y position (direction)
+	tBodyAccJerkMeanZPos: in the Z position (direction)
+tBodyGyroMeanAverage
+	Average mean of angular velocity as measured by the gyroscope in the time domain
+	tBodyGyroMeanXPos: in the X position (direction)
+	tBodyGyroMeanYPos: in the Y position (direction)
+	tBodyGyroMeanZPos: in the Z position (direction)
+tBodyGyroJerkMeanAverage
+	Average mean of the jerk of angular velocity as measured by the gyroscope in the time domain
+	tBodyGyroJerkMeanXPos: in the X position (direction)
+	tBodyGyroJerkMeanYPos: in the Y position (direction)
+	tBodyGyroJerkMeanZPos: in the Z position (direction)
+tBodyAccMagnitudeMeanAverage
+	Average mean of the magnitude of body acceleration in the time domain
+tGravityAccMagnitudeMeanAverage
+	Average mean of the magnitude of gravity acceleration in the time domain
+tBodyAccJerkMagnitudeMeanAverage
+	Average mean of the magnitude of the jerk of body acceleration in the time domain
+tBodyGyroMagnitudeMeanAverage
+	 Average mean of the Magnitude of the angular velocity measured by the gyroscope in the time domain
+tBodyGyroJerkMagnitudeMeanAverage
+	Average mean of the Magnitude of the jerk of angular velocity measured by the gyroscope in the time domain
+fBodyAccMeanAverage
+	Average mean of body acceleration in the frequency domain
+	fBodyAccMeanXPos: in the X position (direction)
+	fBodyAccMeanYPos: in the Y position (direction)
+	fBodyAccMeanZPos: in the Z position (direction)
+fBodyAccJerkMeanAverage
+	Average mean of the jerk of body acceleration in the frequency domain
+	fBodyAccJerkMeanXPos: in the X position (direction)
+	fBodyAccJerkMeanYPos: in the Y position (direction)
+	fBodyAccJerkMeanZPos: in the Z position (direction)
+fBodyGyroMeanAverage
+	Average mean of angular velocity measured by the gyroscope in the frequency domain
+	fBodyGyroMeanXPos: in the X position (direction)
+	fBodyGyroMeanYPos: in the Y position (direction)
+	fBodyGyroMeanZPos: in the Z position (direction)
+fBodyAccMagnitudeMeanAverage
+	Average mean of the magnitude of body acceleration in the frequency domain
+fBodyAccJerkMagnitudeMeanAverage
+	Average mean of the magnitude of the jerk of body acceleration in the frequency domain
+fBodyGyroMagnitudeMeanAverage
+	Average mean of the magnitude of angular velocity measured by the gyroscope in the frequency domain
+fBodyGyroJerkMagnitudeMeanAverage
+	Average mean of the magnitude of the jerk of angular velocity measured by the gyroscope in the frequency domain
+tBodyAccStdAverage
+	Average standard deviation of body acceleration in the time domain
+	tBodyAccStdXPos: in the X position (direction)
+	tBodyAccStdYPos: in the Y position (direction)
+	tBodyAccStdZPos: in the Z position (direction)
+tGravityAccStdAverage
+	Average standard deviation of gravity acceleration in the time domain
+	tGravityAccStdXPos: in the X position (direction)
+	tGravityAccStdYPos: in the Y position (direction)
+	tGravityAccStdZPos: in the Z position (direction)
+tBodyAccJerkStdAverage
+	Average standard deviation of the jerk of body acceleration in the time domain
+	tBodyAccJerkStdXPos: in the X position (direction)
+	tBodyAccJerkStdYPos: in the Y position (direction)
+	tBodyAccJerkStdZPos: in the Z position (direction)
+tBodyGyroStdAverage
+	Average standard deviation of angular velocity measured by the gyroscope in the time domain
+	tBodyGyroStdXPos: in the X position (direction)
+	tBodyGyroStdYPos: in the Y position (direction)
+	tBodyGyroStdZPos: in the Z position (direction)
+tBodyGyroJerkStdAverage
+	Average standard deviation of the jerk of angular velocity measured by the gyroscope in the time domain
+	tBodyGyroJerkStdXPos: in the X position (direction)
+	tBodyGyroJerkStdYPos: in the Y position (direction)
+	tBodyGyroJerkStdZPos: in the Z position (direction)
+tBodyAccMagnitudeStdAverage
+	Average standard deviation of the magnitude of body acceleration in the time domain
+tGravityAccMagnitudeStdAverage
+	Average standard deviation of the magnitude of gravity accerlation in the time domain
+tBodyAccJerkMagnitudeStdAverage
+	Average standard deviation of the magnitude of the jerk of body accerlation in the time domain
+tBodyGyroMagnitudeStdAverage
+	Average standard deviation of the magnitude of angular velocity measured by the gyroscope in the time domain
+tBodyGyroJerkMagnitudeStdAverage
+	Average standard deviation of the magnitude of the jerk of angular velocity measured by the gyroscope in the time domain
+fBodyAccStdAverage
+	Average standard deviation of body acceleration in the frequency domain
+	fBodyAccStdXPos: in the X position (direction)
+	fBodyAccStdYPos: in the Y position (direction)
+	fBodyAccStdZPos: in the Z position (direction)
+fBodyAccJerkStdAverage
+	Average standard deviation of the jerk of body acceleration in the frequency domain
+	fBodyAccJerkStdXPos: in the X position (direction)
+	fBodyAccJerkStdYPos: in the Y position (direction)
+	fBodyAccJerkStdZPos: in the Z position (direction)
+fBodyGyroStdAverage
+	Average standard deviation of angular velocity measured by the gyroscope in the frequency domain
+	fBodyGyroStdXPos: in the X position (direction)
+	fBodyGyroStdYPos: in the Y position (direction)
+	fBodyGyroStdZPos: in the Z position (direction)
+fBodyAccMagnitudeStdAverage
+	Average standard deviation of the magnitude of body acceleration in the frequency domain
+fBodyAccJerkMagnitudeStdAverage
+	Average standard deviation of the magnitude of the jerk of body acceleration in the frequency 
+	domain
+fBodyGyroMagnitudeStdAverage
+	Average standard deviation of the magnitude of body gyration in the frequency domain
+fBodyGyroJerkMagnitudeStd
+	Average standard deviation of the magnitude of the jerk of body gyration in the frequency 
+	domain
